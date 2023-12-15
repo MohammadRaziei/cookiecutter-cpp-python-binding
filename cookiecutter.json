@@ -1,0 +1,10 @@
+{
+    "project_name": "",
+    "description": "",
+    "root_name": "{{ '-'.join(cookiecutter.project_name.lower().split()).replace('_', '-') }}",
+    "module_name": "{{ cookiecutter.root_name.replace('-', '_') }}",
+    "author_name": "",
+    "author_email": "",
+    "github_username": "",
+    "github_repo": "{{ 'https://github.com/' + cookiecutter.github_username + '/' + cookiecutter.root_name }}"
+  }
